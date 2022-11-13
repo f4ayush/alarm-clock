@@ -97,7 +97,7 @@ submitButton.addEventListener('click', (e) => {
     if (validate(hour, minute)) {
         setAlarm(hour, minute, dayTime);
     } else {
-        alert('Enter the correct time');
+        alert('Enter the correct time. Two digits only');
     }
     form.reset();
 })
